@@ -17,7 +17,7 @@ DCPAN-SWIN transformer: After removing the fully connected layers from both DCPA
 
 
 - Yuning Wang:
-Baseline models. The models are from https://github.com/Duplums/brain_age_with_site_removal. I used LR-finer to find the optimal learning rate. 
+complete baseline models. The models are from https://github.com/Duplums/brain_age_with_site_removal. I used LR-finer to find the optimal learning rate. 
 
 - YiMing Chen:
 
