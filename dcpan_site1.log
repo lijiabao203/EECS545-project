@@ -1,0 +1,58 @@
+CUDA available: True
+PyTorch version: 2.6.0+cu126
+Batch Size: 2
+DCPAN Channels: 8
+Attention Heads: 8
+LR: 0.001
+Epochs: 5
+Accumulation steps: 4
+CUDA is available. Using GPU.
+Number of available CUDA devices: 1
+Device 0: NVIDIA A40
+Filtered data saved to: data/train_site_1.tsv
+Filtered x_arr saved to: data/train_site_1.npy
+Filtered data saved to: data/test_site_1.tsv
+Filtered x_arr saved to: data/test_site_1.npy
+[38;5;178m[1mActivate TRAINING mode...[0m
+[38;5;178m[1mRead TRAIN...[0m
+- y size [original]: (244, 2)
+- x size [original]: (244, 3659572)
+[38;5;178m[1mRead TEST...[0m
+- y size [original]: (33, 2)
+- x size [original]: (33, 3659572)
+torch.Size([2, 121, 145, 121]) torch.Size([2])
+ONE
+TWO
+TWO Half
+THREE
+Total number of parameters in the model: 56981706
+FOUR
+FIVE
+Epoch [1/5], Loss: 13.7250
+Epoch [2/5], Loss: 5.5141
+Epoch [3/5], Loss: 7.9867
+Epoch [4/5], Loss: 0.3675
+Epoch [5/5], Loss: 1.0572
+Predicted Age: [22.62 23.  ], Actual Age: [21. 21.]
+Predicted Age: [23.25 23.27], Actual Age: [23. 21.]
+Predicted Age: [22.92 23.23], Actual Age: [19. 27.]
+Predicted Age: [23.11 22.98], Actual Age: [21. 21.]
+Predicted Age: [23.78 23.03], Actual Age: [25. 23.]
+Predicted Age: [23.33 23.33], Actual Age: [23. 27.]
+Predicted Age: [23.48 23.06], Actual Age: [23. 21.]
+Predicted Age: [23.27 22.97], Actual Age: [19. 21.]
+Predicted Age: [23.23 23.14], Actual Age: [23. 23.]
+Predicted Age: [22.9 23.3], Actual Age: [19. 23.]
+Predicted Age: [23.61 23.55], Actual Age: [25. 23.]
+Predicted Age: [22.97 23.02], Actual Age: [21. 19.]
+Predicted Age: [23.05 23.5 ], Actual Age: [19. 35.]
+Predicted Age: [22.34 22.61], Actual Age: [19. 25.]
+Predicted Age: [23.61 23.12], Actual Age: [27. 21.]
+Predicted Age: [22.94 23.14], Actual Age: [19. 23.]
+Predicted Age: 22.90625, Actual Age: [21.]
+
+Test Set Performance (all 33 batches):
+Test Loss: 9.8060
+Mean Absolute Error (MAE): 2.34 years
+Mean Squared Error (MSE): 9.99 years²
+Root Mean Squared Error (RMSE): 3.16 years
