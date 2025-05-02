@@ -15,4 +15,4 @@ Complete, test, and debug the models of SWIN and DCPAN-SWIN transformer, train i
 - DCPAN-SWIN_epoch5-6.html contains the training log of epochs 5-6 for DCPAN-SWIN trnasformer on the full dataset.
 - DCPAN-SWIN_epoch7-10.html contains the training log of epochs 7-10 for DCPAN-SWIN trnasformer on the full dataset.
 - DCPAN-SWIN_prediction contains the prediction of test dataset in epoch 9 & 10, comparing with true data.
-- SWIN-epoch1-10.html contains the log data of epochs 1-10 for SWIN on the full dataset.
+- SWIN_epoch1-10.html contains the log data of epochs 1-10 for SWIN on the full dataset.
