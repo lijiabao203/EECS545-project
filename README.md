@@ -1,4 +1,4 @@
-# EECS545-project
+# EECS545-project: Brain Age Prediction from 3D MRI on OpenBHB Dataset using 3D SWIN Transformer and DCPAN
 This is my EECS 545 project file in University of Michigan.
 
 - Cary Shu: 
